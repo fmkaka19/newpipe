@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 320" width="100%" height="100%">
+  <defs>
+    <linearGradient id="grad-card" x1="0" y1="0" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#fdfdfd"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="500" height="320" rx="16" fill="url(#grad-card)" stroke="#e2e2e2" stroke-width="2"/>
+  
+  <!-- Header Bar -->
+  <rect x="24" y="24" width="452" height="40" rx="8" fill="#f7f7f7"/>
+  <circle cx="44" cy="44" r="6" fill="#c62828"/>
+  <circle cx="62" cy="44" r="6" fill="#d97706"/>
+  <circle cx="80" cy="44" r="6" fill="#2e7d32"/>
+  <text x="104" y="49" font-family="sans-serif" font-size="12" fill="#6b7280">NewPipe System Diagnostics &amp; Extractor Status</text>
+
+  <!-- Status Cards Grid -->
+  <!-- Box 1: Network -->
+  <rect x="24" y="80" width="140" height="95" rx="10" fill="#ffffff" stroke="#e2e2e2"/>
+  <circle cx="50" cy="106" r="14" fill="#fff3e6"/>
+  <path d="M44 106 A6 6 0 0 1 56 106" stroke="#f28c28" stroke-width="2" fill="none"/>
+  <path d="M41 101 A10 10 0 0 1 59 101" stroke="#f28c28" stroke-width="2" fill="none"/>
+  <text x="24" y="145" font-family="sans-serif" font-size="12" font-weight="600" fill="#202124" dx="14">Connection</text>
+  <text x="24" y="162" font-family="sans-serif" font-size="11" fill="#2e7d32" dx="14">● Active</text>
+
+  <!-- Box 2: Extractor -->
+  <rect x="180" y="80" width="140" height="95" rx="10" fill="#ffffff" stroke="#f28c28" stroke-width="1.5"/>
+  <circle cx="206" cy="106" r="14" fill="#fff3e6"/>
+  <path d="M201 106 L211 106 M206 101 L206 111" stroke="#d97706" stroke-width="2"/>
+  <text x="180" y="145" font-family="sans-serif" font-size="12" font-weight="600" fill="#202124" dx="14">Extractor Service</text>
+  <text x="180" y="162" font-family="sans-serif" font-size="11" fill="#d97706" dx="14">▲ Check Updates</text>
+
+  <!-- Box 3: Media Player -->
+  <rect x="336" y="80" width="140" height="95" rx="10" fill="#ffffff" stroke="#e2e2e2"/>
+  <circle cx="362" cy="106" r="14" fill="#f7f7f7"/>
+  <polygon points="359,99 369,106 359,113" fill="#6b7280"/>
+  <text x="336" y="145" font-family="sans-serif" font-size="12" font-weight="600" fill="#202124" dx="14">Local Player</text>
+  <text x="336" y="162" font-family="sans-serif" font-size="11" fill="#2e7d32" dx="14">● Operational</text>
+
+  <!-- Diagnostic Logs Container -->
+  <rect x="24" y="190" width="452" height="106" rx="10" fill="#202124"/>
+  <text x="40" y="218" font-family="monospace" font-size="12" fill="#2e7d32">[INFO] Initializing NewPipe content availability check...</text>
+  <text x="40" y="240" font-family="monospace" font-size="12" fill="#f28c28">[WARN] Content response: 404 / Service layout modified</text>
+  <text x="40" y="262" font-family="monospace" font-size="12" fill="#ffffff">[ACTION] Recommendation: Verify NewPipe app version or refresh extractor cache.</text>
+</svg>
