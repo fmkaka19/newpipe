@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 
 # Sitemap Location
-Sitemap: https://newpipe-help.com/sitemap.xml
+Sitemap: https://newpipe-ten.vercel.app/sitemap.xml
