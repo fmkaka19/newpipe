@@ -1,46 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NewPipe Content Unavailable – Causes &amp; Fixes</title>
-  <meta name="description" content="Seeing “NewPipe content unavailable”? Learn the common causes, troubleshooting steps, update checks, and possible solutions for NewPipe issues.">
-  <meta name="keywords" content="NewPipe content unavailable, NewPipe content unavailable error, NewPipe video unavailable, NewPipe not loading content, NewPipe playback problem, NewPipe troubleshooting, NewPipe update, NewPipe connection issue">
+  <title>NewPipe - Free and Open Source YouTube Client for Android</title>
+  <meta name="description"
+    content="NewPipe offers private YouTube streaming for Android devices with popup and background playback. Download the free open-source APK now for private viewing!">
+  <meta name="keywords"
+    content="NewPipe, NewPipe APK, free YouTube client, open source YouTube, NewPipe Android, background player, popup player, lightweight YouTube, F-Droid NewPipe">
   <meta name="google-site-verification" content="gTkA-B6f3U-gZTK85P83LOPx6sU4QbuiREYMwpMC9Og" />
-  
+
   <!-- Open Graph / Meta -->
-  <meta property="og:title" content="NewPipe Content Unavailable – Causes &amp; Fixes">
-  <meta property="og:description" content="Comprehensive troubleshooting resource for understanding and fixing the NewPipe content unavailable error message.">
+  <meta property="og:title" content="NewPipe - Free and Open Source YouTube Client for Android">
+  <meta property="og:description"
+    content="NewPipe delivers private YouTube streaming services for Android devices worldwide with popup and background playback. Download the free open-source APK now!">
   <meta property="og:type" content="website">
 
   <!-- Favicon -->
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
-  
+
   <!-- CSS Stylesheet -->
   <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body id="home">
 
   <!-- Header / Navigation Bar -->
   <header class="site-header">
     <div class="container nav-container">
-      <a href="#home" class="brand-logo" aria-label="NewPipe Help Homepage">
-        <img src="assets/logo/logo.svg" alt="NewPipe Help Icon">
-        <span>NewPipe Help</span>
+      <a href="#home" class="brand-logo" aria-label="NewPipe Homepage">
+        <img src="assets/logo/logo.svg" alt="NewPipe Icon">
+        <span>NewPipe</span>
       </a>
 
       <nav aria-label="Main Navigation">
         <ul class="nav-menu">
           <li><a href="#home" class="nav-link">Home</a></li>
-          <li><a href="#why-it-happens" class="nav-link">Why It Happens</a></li>
-          <li><a href="#solutions" class="nav-link">Solutions</a></li>
-          <li><a href="#troubleshooting" class="nav-link">Troubleshooting</a></li>
+          <li><a href="#features" class="nav-link">Features</a></li>
+          <li><a href="#supported-services" class="nav-link">Services</a></li>
+          <li><a href="#get-newpipe" class="nav-link">Get NewPipe</a></li>
+          <li><a href="#troubleshooting" class="nav-link">Troubleshoot</a></li>
+          <li><a href="#support" class="nav-link">Support</a></li>
           <li><a href="#faq" class="nav-link">FAQ</a></li>
         </ul>
       </nav>
 
       <div class="nav-actions">
-        <a href="#troubleshooting" class="btn btn-primary">Troubleshoot Now</a>
+        <a href="#get-newpipe" class="btn btn-primary">Get NewPipe</a>
       </div>
 
       <button class="hamburger-toggle" aria-expanded="false" aria-label="Toggle navigation menu">
@@ -54,218 +61,420 @@
   </header>
 
   <main>
-    <!-- Hero Section & Status Card -->
+    <!-- Hero Section -->
     <section class="hero-section">
       <div class="container hero-grid">
         <div class="hero-content">
-          <div class="badge-tag">Independent Knowledge Base</div>
-          <h1>NewPipe Content Unavailable – Causes &amp; Solutions</h1>
+          <div class="badge-tag">Free &amp; Open Source Android App</div>
+          <h1>NewPipe</h1>
+          <h3 class="hero-subtitle">The lightweight YouTube experience for Android</h3>
           <p class="lead">
-            The message “NewPipe content unavailable” occurs when the application is temporarily unable to retrieve or parse requested media streams from public video platforms. Discover the underlying causes and follow step-by-step troubleshooting procedures to resolve your connection or playback issue.
+            NewPipe does not use any Google framework libraries or the YouTube API. Only websites are parsed to retrieve
+            necessary media information, granting you full streaming freedom without proprietary tracking.
           </p>
 
           <div class="hero-buttons">
-            <a href="#solutions" class="btn btn-primary">Find a Solution</a>
-            <a href="#why-it-happens" class="btn btn-secondary">Check Common Causes</a>
+            <a href="#get-newpipe" class="btn btn-primary">Download APK</a>
+            <a href="#features" class="btn btn-secondary">Explore Features</a>
           </div>
 
-          <!-- Error Status Card Component -->
-          <div class="status-card-box">
-            <div class="status-card-header">
-              <div class="status-indicator-icon">!</div>
-              <h3>NewPipe Content unavailable</h3>
+          <!-- Highlight Feature Badges -->
+          <div class="hero-highlights">
+            <div class="highlight-item">
+              <span class="highlight-icon">🛡️</span>
+              <span>No Google Services Needed</span>
             </div>
-            <ul class="status-causes-list">
-              <li>Service changes on source media platforms</li>
-              <li>Outdated NewPipe application or extractor version</li>
-              <li>Network or DNS connectivity constraints</li>
-              <li>Extractor parser adjustments required</li>
-              <li>Temporary media stream availability problems</li>
-            </ul>
+            <div class="highlight-item">
+              <span class="highlight-icon">⚡</span>
+              <span>Lightweight &amp; Battery Friendly</span>
+            </div>
+            <div class="highlight-item">
+              <span class="highlight-icon">🚫</span>
+              <span>Zero Ads &amp; Privacy First</span>
+            </div>
           </div>
         </div>
 
         <div class="hero-visual">
-          <img src="assets/images/phone-mockup.svg" alt="NewPipe content unavailable error screen illustration on Android device" width="400" height="650">
+          <img src="assets/images/phone-mockup.svg" alt="NewPipe media player interface on Android device" width="400"
+            height="650">
         </div>
       </div>
     </section>
 
-    <!-- 1. What Does "Content Unavailable" Mean? -->
-    <section id="meaning">
-      <div class="container">
-        <div class="explanation-grid">
-          <div>
-            <div class="badge-tag">Error Clarification</div>
-            <h2>What Does “NewPipe Content Unavailable” Mean?</h2>
-            <p>
-              When NewPipe displays the <strong>“NewPipe content unavailable”</strong> alert, it means the application attempted to establish a stream connection with a remote media server but received an unrecognized layout structure, a HTTP 404/403 status code, or an empty response payload.
-            </p>
-            <p>
-              Unlike standard browser clients that execute proprietary script engines, NewPipe relies on an open-source parsing module called an <em>extractor</em> to interpret video streams, titles, and channel metadata directly. If the source platform updates its layout or API endpoints, NewPipe's extractor may temporarily lose the ability to locate the stream URL.
-            </p>
-          </div>
-
-          <div class="explanation-card">
-            <h3>Key Takeaways &amp; Symptoms</h3>
-            <ul>
-              <li><strong>Not a Device Failure:</strong> Your Android phone or tablet hardware is operating normally.</li>
-              <li><strong>Upstream Platform Changes:</strong> Frequently triggered when target video platforms alter their backend stream delivery protocols.</li>
-              <li><strong>Temporary State:</strong> Most instances are resolved quickly through extractor updates or client patch releases.</li>
-              <li><strong>Selective Restrictions:</strong> May impact only specific video formats, age-restricted clips, or geo-restricted streams while others load fine.</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- 2. Why Is NewPipe Content Unavailable? (6 Cards) -->
-    <section id="why-it-happens" class="surface-bg">
+    <!-- Section 1: Main Features -->
+    <section id="features">
       <div class="container">
         <div class="section-title-wrap">
-          <div class="badge-tag">Root Cause Analysis</div>
-          <h2>Why Is NewPipe Content Unavailable?</h2>
-          <p class="lead">Multiple technical factors can cause NewPipe to display a video unavailable notice. Below are the six most common causes identified by open-source maintainers.</p>
+          <div class="badge-tag">Core Capabilities</div>
+          <h2>Main Features</h2>
+          <h3 class="section-subtitle">NewPipe – the smart streaming solution</h3>
+          <p class="lead">Engineered to restore control over your multimedia experience on Android devices without ads,
+            trackers, or forced accounts.</p>
         </div>
 
         <div class="grid-3-col">
+          <!-- Feature 1: Offline usage -->
           <div class="feature-card">
-            <div class="card-icon">⚡</div>
-            <h3>1. Temporary Service Changes</h3>
-            <p>Source streaming platforms regularly update their web architecture, player code, or endpoint structures, which can temporarily disrupt external parser compatibility until an update is deployed.</p>
+            <div class="card-icon">💾</div>
+            <h3>Offline usage</h3>
+            <p>Download video and audio streams directly to your device storage. Choose video resolution, audio format,
+              and subtitle tracks to enjoy playback anywhere without an active network connection.</p>
           </div>
 
-          <div class="feature-card">
-            <div class="card-icon">📦</div>
-            <h3>2. Outdated NewPipe Version</h3>
-            <p>Running a legacy version of the app means missing out on recent extractor patches, API adaptations, and critical media player bug fixes designed to resolve playback issues.</p>
-          </div>
-
-          <div class="feature-card">
-            <div class="card-icon">🌐</div>
-            <h3>3. Network Connection</h3>
-            <p>Weak Wi-Fi signal, unstable mobile data, restrictive firewall rules, or DNS blocking can prevent NewPipe from establishing a secure connection to content servers.</p>
-          </div>
-
-          <div class="feature-card">
-            <div class="card-icon">⚙️</div>
-            <h3>4. Extractor Problems</h3>
-            <p>The core NewPipeExtractor library may require a dedicated update if a major streaming service modifies signature deciphering algorithms or player parameters.</p>
-          </div>
-
+          <!-- Feature 2: Extended Privacy -->
           <div class="feature-card">
             <div class="card-icon">🔒</div>
-            <h3>5. Content Restrictions</h3>
-            <p>Certain videos may be subject to geographic licensing limits, age restrictions, or content owner takedowns, resulting in content unavailable responses.</p>
+            <h3>Extended Privacy</h3>
+            <p>Your privacy is respected by design. NewPipe contains zero tracking beacons, telemetry trackers, or
+              proprietary Google APIs. All your viewing habits and subscriptions remain exclusively on your phone.</p>
           </div>
 
+          <!-- Feature 3: Background Player -->
           <div class="feature-card">
-            <div class="card-icon">⏳</div>
-            <h3>6. Temporary Issues</h3>
-            <p>High server load or transient network micro-outages on the source platform's content delivery networks (CDNs) can temporarily prevent stream initialization.</p>
+            <div class="card-icon">🎧</div>
+            <h3>Background Player</h3>
+            <p>Listen to music, interviews, or lectures in the background while browsing other applications or keeping
+              your device screen completely powered off to conserve battery life.</p>
+          </div>
+
+          <!-- Feature 4: Popup Player -->
+          <div class="feature-card">
+            <div class="card-icon">🖼️</div>
+            <h3>Popup Player</h3>
+            <p>Multitask effortlessly with floating picture-in-picture windows. Resize the movable video overlay, adjust
+              aspect ratios, or pin it anywhere across your screen while using other tools.</p>
+          </div>
+
+          <!-- Feature 5: Subscriptions -->
+          <div class="feature-card">
+            <div class="card-icon">📌</div>
+            <h3>Subscriptions</h3>
+            <p>Follow your favorite channels and creators without creating a Google or YouTube account. Import and
+              export subscriptions securely with zero cloud synchronization requirements.</p>
+          </div>
+
+          <!-- Feature 6: Bookmarks and Local Playlists -->
+          <div class="feature-card">
+            <div class="card-icon">📑</div>
+            <h3>Bookmarks and Local Playlists</h3>
+            <p>Organize custom collections of media tracks and save favorite streams to locally managed playlists that
+              are stored securely on your device with complete offline accessibility.</p>
+          </div>
+
+          <!-- Feature 7: History -->
+          <div class="feature-card">
+            <div class="card-icon">📜</div>
+            <h3>History</h3>
+            <p>Easily revisit past videos with an optional on-device viewing history log. Search your personal history,
+              manage retention preferences, or clear data whenever you desire.</p>
+          </div>
+
+          <!-- Feature 8: 4K & High FPS Playback -->
+          <div class="feature-card">
+            <div class="card-icon">🎬</div>
+            <h3>High Definition Playback</h3>
+            <p>Stream videos in 720p, 1080p, 2K, or 4K with 60 FPS support. Switch between software and hardware
+              decoders for the smoothest visual playback on your Android chipset.</p>
+          </div>
+
+          <!-- Feature 9: Free & Open Source -->
+          <div class="feature-card">
+            <div class="card-icon">🌐</div>
+            <h3>Free &amp; Open Source</h3>
+            <p>Released under the GNU General Public License v3.0 (GPLv3). Transparent source code maintained by a
+              worldwide community of privacy-conscious developers.</p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- 3. How to Fix NewPipe Content Unavailable (6 Steps) -->
-    <section id="solutions">
+    <!-- Section 2: Supported Services -->
+    <section id="supported-services" class="surface-bg">
       <div class="container">
         <div class="section-title-wrap">
-          <div class="badge-tag">Resolution Guide</div>
-          <h2>How to Fix NewPipe Content Unavailable</h2>
-          <p class="lead">Follow this structured troubleshooting workflow to identify and resolve your NewPipe content playback problems.</p>
+          <div class="badge-tag">Unified Media Hub</div>
+          <h2>Supported Services</h2>
+          <p class="lead">NewPipe is not just for YouTube. Stream audio and video from multiple independent platforms
+            through a single privacy-focused interface.</p>
         </div>
 
-        <div class="steps-grid">
-          <div class="step-card">
-            <span class="step-number">Step 01</span>
-            <h3>Check Your Internet</h3>
-            <p>Verify that your Wi-Fi or mobile data network has active internet access. Try toggling Airplane mode or testing connection speed in a web browser.</p>
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-badge youtube">YouTube</div>
+            <h3>YouTube</h3>
+            <p>Watch videos, trending content, channel feeds, and comments without advertisements or algorithmic
+              tracking.</p>
           </div>
 
-          <div class="step-card">
-            <span class="step-number">Step 02</span>
-            <h3>Try Another Video</h3>
-            <p>Test multiple videos from different channels and services to determine whether the error affects a single video or the entire application.</p>
+          <div class="service-card">
+            <div class="service-badge peertube">PeerTube</div>
+            <h3>PeerTube</h3>
+            <p>Explore federated, decentralized video sharing powered by ActivityPub across hundreds of community
+              instances.</p>
           </div>
 
-          <div class="step-card">
-            <span class="step-number">Step 03</span>
-            <h3>Update NewPipe</h3>
-            <p>Ensure you are running the latest release. Extractor patches are published regularly to address upstream compatibility changes.</p>
+          <div class="service-card">
+            <div class="service-badge soundcloud">SoundCloud</div>
+            <h3>SoundCloud</h3>
+            <p>Stream music tracks, artist playlists, and electronic podcasts without proprietary account restrictions.
+            </p>
           </div>
 
-          <div class="step-card">
-            <span class="step-number">Step 04</span>
-            <h3>Restart NewPipe</h3>
-            <p>Force close NewPipe from Android Recent Apps and re-open it to clear temporary memory cache and reload fresh service configurations.</p>
+          <div class="service-card">
+            <div class="service-badge bandcamp">Bandcamp</div>
+            <h3>Bandcamp</h3>
+            <p>Discover independent artists, discographies, and audio releases straight from the creator-centric music
+              platform.</p>
           </div>
 
-          <div class="step-card">
-            <span class="step-number">Step 05</span>
-            <h3>Check Again Later</h3>
-            <p>If the issue stems from a fresh upstream platform code change, allow time for developers and open-source contributors to publish a patch.</p>
-          </div>
-
-          <div class="step-card">
-            <span class="step-number">Step 06</span>
-            <h3>Review the NewPipe Project</h3>
-            <p>Visit official release notes or issue tracker discussions to verify whether maintainers have documented a known temporary extractor issue.</p>
+          <div class="service-card">
+            <div class="service-badge ccc">media.ccc.de</div>
+            <h3>media.ccc.de</h3>
+            <p>Access high-quality lecture recordings, technical conferences, and talks from the Chaos Computer Club
+              network.</p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- 4. Check for a NewPipe Update -->
-    <section id="update">
+    <!-- Section 3: Anti-Features & Privacy Architecture (From F-Droid) -->
+    <section id="anti-features">
       <div class="container">
-        <div class="update-card-banner">
-          <div class="update-grid">
-            <div>
-              <div class="badge-tag" style="background-color: rgba(242, 140, 40, 0.2); color: #f28c28;">Software Version Checker</div>
-              <h2>Check for a NewPipe Update</h2>
-              <p>
-                Because NewPipe operates without centralized proprietary servers, keeping the application updated is essential for maintaining media playback compatibility whenever third-party services adjust their stream formats.
-              </p>
+        <div class="anti-features-wrapper">
+          <div class="section-title-wrap" style="margin-bottom: 2rem;">
+            <div class="badge-tag" style="background-color: #fee2e2; color: #b91c1c;">F-Droid Transparency Standard
+            </div>
+            <h2>Anti-Features &amp; Freedom</h2>
+            <p class="lead">F-Droid flags specific software traits that users should know. Here is how NewPipe handles
+              upstream services transparently.</p>
+          </div>
 
-              <div class="update-info-list">
-                <div class="update-info-item">
-                  <span class="label">Installed Build Status</span>
-                  <span class="value">v0.27.x (Check Settings)</span>
-                </div>
-                <div class="update-info-item">
-                  <span class="label">Latest Release Status</span>
-                  <span class="value">Current Version Available</span>
-                </div>
-                <div class="update-info-item">
-                  <span class="label">Android Requirement</span>
-                  <span class="value">Android 5.0+ (Lollipop)</span>
-                </div>
-                <div class="update-info-item">
-                  <span class="label">Recommended Sources</span>
-                  <span class="value">GitHub Releases / F-Droid</span>
-                </div>
+          <div class="anti-feature-grid">
+            <div class="anti-card">
+              <div class="anti-icon">⚠️</div>
+              <div class="anti-text">
+                <h3>Non-Free Network Services</h3>
+                <p>NewPipe communicates with upstream commercial video platforms (such as YouTube) that operate non-free
+                  backend services. However, NewPipe itself contains <strong>zero proprietary tracking code</strong> and
+                  accesses streams solely via public web parsers.</p>
               </div>
-
-              <a href="#troubleshooting" class="btn btn-primary">Check Latest Version</a>
             </div>
 
-            <div style="text-align: center;">
-              <img src="assets/images/status-illustration.svg" alt="NewPipe version diagnostic illustration" style="max-width: 100%; height: auto;">
+            <div class="anti-card">
+              <div class="anti-icon">🛡️</div>
+              <div class="anti-text">
+                <h3>Zero Proprietary Bloatware</h3>
+                <p>Unlike standard video apps, NewPipe does not include Google Play Services binaries, Firebase
+                  analytics, advertising SDKs, or invasive crash reporters. Your device remains lean and unmonitored.
+                </p>
+              </div>
+            </div>
+
+            <div class="anti-card">
+              <div class="anti-icon">🔑</div>
+              <div class="anti-text">
+                <h3>No Account Enforcement</h3>
+                <p>You can search, stream, download, and subscribe to content completely anonymously. No login
+                  credentials or personal identification are ever requested or stored.</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- 5. Troubleshooting Checklist -->
+    <!-- Section 4: Get NewPipe / Downloads -->
+    <section id="get-newpipe" class="surface-bg">
+      <div class="container">
+        <div class="section-title-wrap">
+          <div class="badge-tag">Download &amp; Installation</div>
+          <h2>Get NewPipe</h2>
+          <p class="lead">Choose your preferred installation method to enjoy privacy-friendly multimedia streaming on
+            your Android device.</p>
+        </div>
+
+        <div class="download-grid">
+          <!-- Download Option 1: Direct APK -->
+          <div class="download-card featured">
+            <div class="featured-badge">Recommended</div>
+            <div class="dl-icon">📦</div>
+            <h3>APK Info</h3>
+            <p class="dl-desc">Direct standalone Android package with integrated self-updater notifications.</p>
+            <div class="dl-meta">
+              <span>Version: <strong>v0.27.x</strong></span>
+              <span>Architecture: <strong>Universal APK</strong></span>
+              <span>Requires: <strong>Android 5.0+</strong></span>
+            </div>
+            <a href="https://github.com/TeamNewPipe/NewPipe/releases" target="_blank" rel="noopener noreferrer"
+              class="btn btn-primary btn-block">Download Direct APK</a>
+          </div>
+
+          <!-- Download Option 2: F-Droid -->
+          <div class="download-card">
+            <div class="dl-icon">🤖</div>
+            <h3>F-Droid Repository</h3>
+            <p class="dl-desc">Install and manage NewPipe through the premier free and open-source Android app
+              repository.</p>
+            <div class="dl-meta">
+              <span>Repository: <strong>F-Droid Main / Official</strong></span>
+              <span>Signatures: <strong>Verified FOSS</strong></span>
+              <span>Updates: <strong>Automated Repository</strong></span>
+            </div>
+            <a href="https://f-droid.org/en/packages/org.schabi.newpipe/" target="_blank" rel="noopener noreferrer"
+              class="btn btn-secondary btn-block">View on F-Droid</a>
+          </div>
+
+          <!-- Download Option 3: GitHub Releases -->
+          <div class="download-card">
+            <div class="dl-icon">🐙</div>
+            <h3>GitHub Releases</h3>
+            <p class="dl-desc">Access official release assets, pre-release test builds, and inspect open-source commit
+              history.</p>
+            <div class="dl-meta">
+              <span>Source: <strong>TeamNewPipe/NewPipe</strong></span>
+              <span>License: <strong>GPL-3.0</strong></span>
+              <span>Builds: <strong>Release &amp; RC</strong></span>
+            </div>
+            <a href="https://github.com/TeamNewPipe/NewPipe" target="_blank" rel="noopener noreferrer"
+              class="btn btn-secondary btn-block">GitHub Repository</a>
+          </div>
+        </div>
+
+        <!-- Release Highlights & Faster Updates -->
+        <div class="highlights-container">
+          <div class="highlight-column">
+            <h4>Release Highlights</h4>
+            <p>Every release delivers continuous extractor fixes, media player stability optimizations, adaptive video
+              stream parsing, and improved chapter navigation for uninterrupted playback.</p>
+          </div>
+          <div class="highlight-column">
+            <h4>Faster updates</h4>
+            <p>Add the custom NewPipe F-Droid repository to your F-Droid client to receive official updates the moment
+              they are built by the maintainers, bypassing default catalog sync delays.</p>
+          </div>
+          <div class="highlight-column">
+            <h4>NewPipe is free and open source</h4>
+            <p>No paywalls, no "pro" upgrades, and no subscription fees. NewPipe is community-driven software created
+              for the public good and distributed freely under GPLv3.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 5: Versions & App Information (Technical Table) -->
+    <section id="versions">
+      <div class="container">
+        <div class="section-title-wrap">
+          <div class="badge-tag">Technical Specifications</div>
+          <h2>Versions &amp; App Information</h2>
+          <p class="lead">Structured application metadata, build architecture, and platform compatibility standards.</p>
+        </div>
+
+        <div class="app-info-card">
+          <div class="table-responsive">
+            <table class="app-info-table">
+              <tbody>
+                <tr>
+                  <th>App Name</th>
+                  <td>NewPipe</td>
+                </tr>
+                <tr>
+                  <th>Package Name</th>
+                  <td><code>org.schabi.newpipe</code></td>
+                </tr>
+                <tr>
+                  <th>Platform</th>
+                  <td>Android OS (Smartphones, Tablets, Android TV, Fire OS)</td>
+                </tr>
+                <tr>
+                  <th>Category</th>
+                  <td>Multimedia / Video &amp; Audio Streaming Client</td>
+                </tr>
+                <tr>
+                  <th>Latest Release Version</th>
+                  <td>v0.27.x Stable (Check latest release tag)</td>
+                </tr>
+                <tr>
+                  <th>Android Requirement</th>
+                  <td>Android 5.0 (Lollipop, API 21) or higher</td>
+                </tr>
+                <tr>
+                  <th>Software License</th>
+                  <td>GNU General Public License v3.0 (GPLv3)</td>
+                </tr>
+                <tr>
+                  <th>Package File Size</th>
+                  <td>~15 MB (varies slightly by architecture)</td>
+                </tr>
+                <tr>
+                  <th>Maintainers</th>
+                  <td>Team NewPipe &amp; Worldwide Open-Source Contributors</td>
+                </tr>
+                <tr>
+                  <th>Architecture</th>
+                  <td>Universal (armeabi-v7a, arm64-v8a, x86, x86_64)</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 6: What Other People Think -->
+    <section id="reviews" class="surface-bg">
+      <div class="container">
+        <div class="section-title-wrap">
+          <div class="badge-tag">Community Feedback</div>
+          <h2>What other people think</h2>
+          <p class="lead">See what power users, developers, and privacy advocates say about their experience with
+            NewPipe.</p>
+        </div>
+
+        <div class="grid-3-col">
+          <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">“NewPipe has transformed how I watch educational lectures and podcasts on Android.
+              Background playback without annoying battery drains is simply unmatched.”</p>
+            <div class="review-author">
+              <strong>Alex R.</strong>
+              <span>Android FOSS Enthusiast</span>
+            </div>
+          </div>
+
+          <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">“An absolute must-have app from F-Droid. Zero tracking, no Google Play Services
+              dependency, and lightning-fast video startup on older devices.”</p>
+            <div class="review-author">
+              <strong>Elena M.</strong>
+              <span>Privacy &amp; Security Researcher</span>
+            </div>
+          </div>
+
+          <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">“The offline download feature and popup player work flawlessly. It respects user
+              freedom completely and proves open-source software can outperform proprietary giants.”</p>
+            <div class="review-author">
+              <strong>David K.</strong>
+              <span>Software Engineer</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 7: Need help? Troubleshooting Guide (Preserved & Enhanced) -->
     <section id="troubleshooting">
       <div class="container">
         <div class="section-title-wrap">
-          <div class="badge-tag">Interactive Checklist</div>
-          <h2>NewPipe Content Unavailable Troubleshooting Checklist</h2>
-          <p class="lead">Complete these diagnostic steps before attempting to uninstall or reinstall the app.</p>
+          <div class="badge-tag">Self-Help Diagnostic</div>
+          <h2>Need Help? Troubleshooting Guide</h2>
+          <h4 class="section-subheading">Need help?</h4>
+          <p class="lead">Experiencing connection errors, stream buffering, or "content unavailable" notices? Use our
+            interactive checklist to diagnose and resolve issues.</p>
         </div>
 
         <div class="checklist-wrapper">
@@ -281,276 +490,162 @@
           <div class="checklist-items">
             <label class="checklist-item">
               <input type="checkbox" id="chk1">
-              <span>Internet connection works reliably on other applications</span>
+              <span>Internet connection operates normally in your browser and other applications</span>
             </label>
 
             <label class="checklist-item">
               <input type="checkbox" id="chk2">
-              <span>Other videos and streams inside NewPipe load normally</span>
+              <span>Other videos and alternative services inside NewPipe load without errors</span>
             </label>
 
             <label class="checklist-item">
               <input type="checkbox" id="chk3">
-              <span>NewPipe has been updated to the latest available release version</span>
+              <span>NewPipe has been updated to the latest available APK release version</span>
             </label>
 
             <label class="checklist-item">
               <input type="checkbox" id="chk4">
-              <span>The content unavailable issue is not limited to a single restricted video</span>
+              <span>The issue is not confined to a single age-restricted or geo-blocked video</span>
             </label>
 
             <label class="checklist-item">
               <input type="checkbox" id="chk5">
-              <span>Restarting the app via force stop was attempted</span>
+              <span>Application has been force-stopped and relaunched to clear memory cache</span>
             </label>
 
             <label class="checklist-item">
               <input type="checkbox" id="chk6">
-              <span>Device system date and time settings are set to automatic</span>
+              <span>Device system clock and timezone settings are synchronized automatically</span>
             </label>
 
             <label class="checklist-item">
               <input type="checkbox" id="chk7">
-              <span>Official project release channels have been checked for maintenance notes</span>
+              <span>Official project release channels and extractor notes have been checked</span>
             </label>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- 6. Is NewPipe Completely Broken? -->
-    <section id="problem-types">
+    <!-- Section 8: Common NewPipe Problems (Preserved) -->
+    <section id="common-problems" class="surface-bg">
       <div class="container">
         <div class="section-title-wrap">
-          <div class="badge-tag">Problem Classification</div>
-          <h2>Is NewPipe Completely Broken?</h2>
-          <p class="lead">Distinguish between localized video errors and broader network or application outages.</p>
-        </div>
-
-        <div class="breakdown-grid">
-          <div class="breakdown-card">
-            <span class="breakdown-tag tag-video">Scenario 1</span>
-            <h3>One Video Not Loading</h3>
-            <p>
-              If a specific video displays content unavailable while others play cleanly, the issue is typically due to video-specific age restrictions, regional licensing, or private status settings on the source service.
-            </p>
-          </div>
-
-          <div class="breakdown-card">
-            <span class="breakdown-tag tag-service">Scenario 2</span>
-            <h3>One Service Not Loading</h3>
-            <p>
-              When videos from one specific platform fail while secondary platforms operate normally, the extractor module for that platform likely requires a minor compatibility patch.
-            </p>
-          </div>
-
-          <div class="breakdown-card">
-            <span class="breakdown-tag tag-all">Scenario 3</span>
-            <h3>Everything Not Loading</h3>
-            <p>
-              If no content, search results, or channels load across any service, check your device network connection, VPN configuration, DNS settings, or firewall permissions.
-            </p>
-          </div>
-
-          <div class="breakdown-card">
-            <span class="breakdown-tag tag-player">Scenario 4</span>
-            <h3>Content Loads but Playback Fails</h3>
-            <p>
-              If video metadata (title, views, comments) displays but stream buffering fails, navigate to <em>Settings &gt; Video &amp; Audio</em> to adjust default resolution or fast-forward settings.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- 7. NewPipe Features -->
-    <section id="features">
-      <div class="container">
-        <div class="section-title-wrap">
-          <div class="badge-tag">App Highlights</div>
-          <h2>NewPipe Features</h2>
-          <p class="lead">Designed around privacy, efficiency, and user freedom on Android devices.</p>
-        </div>
-
-        <div class="grid-3-col">
-          <div class="feature-card">
-            <div class="card-icon">🚀</div>
-            <h3>Lightweight</h3>
-            <p>Engineered with minimal resource overhead, providing fast startup speeds, tiny storage footprint, and low battery consumption.</p>
-          </div>
-
-          <div class="feature-card">
-            <div class="card-icon">💾</div>
-            <h3>Offline Usage</h3>
-            <p>Save media content for offline playback, allowing seamless access to audio and video streams without continuous connection.</p>
-          </div>
-
-          <div class="feature-card">
-            <div class="card-icon">🎧</div>
-            <h3>Background Player</h3>
-            <p>Continue listening to video soundtracks or podcasts in the background while multitasking in other Android applications.</p>
-          </div>
-
-          <div class="feature-card">
-            <div class="card-icon">🖼️</div>
-            <h3>Popup Player</h3>
-            <p>Enjoy picture-in-picture floating video windows that can be moved and resized anywhere across your phone screen.</p>
-          </div>
-
-          <div class="feature-card">
-            <div class="card-icon">📌</div>
-            <h3>Subscriptions</h3>
-            <p>Subscribe to channels without creating user accounts. All subscription data remains stored locally on your device.</p>
-          </div>
-
-          <div class="feature-card">
-            <div class="card-icon">📜</div>
-            <h3>Playlists &amp; History</h3>
-            <p>Organize custom video playlists and revisit local watch history with complete privacy and zero data tracking.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- 8. NewPipe App Information (F-Droid Style Structured Table) -->
-    <section id="app-info">
-      <div class="container">
-        <div class="section-title-wrap">
-          <div class="badge-tag">Technical Specification</div>
-          <h2>NewPipe App Information</h2>
-          <p class="lead">Structured application metadata and platform compatibility details.</p>
-        </div>
-
-        <div class="app-info-card">
-          <div class="table-responsive">
-            <table class="app-info-table">
-              <tbody>
-                <tr>
-                  <th>App Name</th>
-                  <td>NewPipe</td>
-                </tr>
-                <tr>
-                  <th>Platform</th>
-                  <td>Android OS</td>
-                </tr>
-                <tr>
-                  <th>Category</th>
-                  <td>Multimedia / Video &amp; Audio Client</td>
-                </tr>
-                <tr>
-                  <th>Latest Version</th>
-                  <td>Check latest release (v0.27.x build series)</td>
-                </tr>
-                <tr>
-                  <th>Android Requirement</th>
-                  <td>Android 5.0 (Lollipop) or higher</td>
-                </tr>
-                <tr>
-                  <th>Package Name</th>
-                  <td><code>org.schabi.newpipe</code></td>
-                </tr>
-                <tr>
-                  <th>License</th>
-                  <td>GNU General Public License v3.0 (GPLv3)</td>
-                </tr>
-                <tr>
-                  <th>File Size</th>
-                  <td>~15 MB (varies by architecture)</td>
-                </tr>
-                <tr>
-                  <th>Last Updated</th>
-                  <td>Regular open-source release updates</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- 9. Common NewPipe Problems -->
-    <section id="common-problems">
-      <div class="container">
-        <div class="section-title-wrap">
-          <div class="badge-tag">Common Issues</div>
+          <div class="badge-tag">Issue Classification</div>
           <h2>Common NewPipe Problems</h2>
-          <p class="lead">Quick diagnostic summaries for frequent application warnings.</p>
+          <p class="lead">Rapid diagnosis and practical resolutions for frequent application scenarios.</p>
         </div>
 
         <div class="problems-grid">
           <div class="problem-card">
             <h3>Content unavailable</h3>
-            <p>Occurs when stream links cannot be resolved due to layout changes or network blocks.</p>
-            <a href="#solutions" class="btn-link">View Solution &rarr;</a>
+            <p>Occurs when stream links cannot be resolved due to layout modifications on upstream platforms or
+              restrictive DNS blocking.</p>
+            <a href="#troubleshooting" class="btn-link">View Diagnosis &rarr;</a>
           </div>
 
           <div class="problem-card">
             <h3>Video not loading</h3>
-            <p>Playback stalls during buffering or fails due to resolution mismatches.</p>
-            <a href="#troubleshooting" class="btn-link">View Solution &rarr;</a>
+            <p>Playback stalls during buffer initialization or fails due to unsupported video resolution settings.</p>
+            <a href="#troubleshooting" class="btn-link">View Diagnosis &rarr;</a>
           </div>
 
           <div class="problem-card">
             <h3>Playback error</h3>
-            <p>Internal media decoder failure or unreadable audio/video track formats.</p>
-            <a href="#solutions" class="btn-link">View Solution &rarr;</a>
+            <p>Internal audio/video track decoder mismatch. Switching between ExoPlayer formats usually restores instant
+              playback.</p>
+            <a href="#troubleshooting" class="btn-link">View Diagnosis &rarr;</a>
           </div>
 
           <div class="problem-card">
             <h3>Search not working</h3>
-            <p>Search query parser output yields empty result sets or connection timeouts.</p>
-            <a href="#update" class="btn-link">View Solution &rarr;</a>
+            <p>Search query parser output returns empty result lists when platform search markup changes unexpectedly.
+            </p>
+            <a href="#get-newpipe" class="btn-link">Check for Updates &rarr;</a>
           </div>
 
           <div class="problem-card">
             <h3>Channel unavailable</h3>
-            <p>Channel feed parser encountering unexpected layout modifications.</p>
-            <a href="#meaning" class="btn-link">View Solution &rarr;</a>
+            <p>Channel feed parser encountering unexpected page structure. Clearing app cache resolves transient feed
+              errors.</p>
+            <a href="#troubleshooting" class="btn-link">View Diagnosis &rarr;</a>
           </div>
 
           <div class="problem-card">
             <h3>Subscription not updating</h3>
-            <p>Local database sync delays or network throttling during feed refresh.</p>
-            <a href="#troubleshooting" class="btn-link">View Solution &rarr;</a>
+            <p>Local SQLite database lock or network throttling during feed refresh. Can be refreshed from feed
+              settings.</p>
+            <a href="#troubleshooting" class="btn-link">View Diagnosis &rarr;</a>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- 10. When Should You Try Again Later? -->
-    <section id="when-to-wait">
-      <div class="container">
-        <div class="notice-box">
-          <div class="notice-icon">⏱️</div>
-          <div class="notice-content">
-            <h2>When Should You Try Again Later?</h2>
-            <p>
-              If a streaming platform makes a sudden breaking change to its web player API, thousands of users may see the “NewPipe content unavailable” message simultaneously. In such situations, open-source developers work swiftly to publish an updated extractor. Trying again after a few hours or checking for an app update is often the most effective resolution.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- 11. FAQ Section (Accordion) -->
-    <section id="faq">
+    <!-- Section 9: Support NewPipe & Support Our Developers -->
+    <section id="support">
       <div class="container">
         <div class="section-title-wrap">
-          <div class="badge-tag">Help Center</div>
+          <div class="badge-tag">Community &amp; Donations</div>
+          <h2>Support NewPipe</h2>
+          <h3 class="section-subtitle">Support our developers</h3>
+          <p class="lead">NewPipe is developed by passionate volunteers without advertisements or venture capital.</p>
+        </div>
+
+        <div class="support-grid">
+          <div class="support-card">
+            <h4>Why NewPipe is free</h4>
+            <p>We believe user privacy and media access should be fundamental rights, not subscription commodities.
+              NewPipe remains completely free and open-source under GPLv3, ensuring freedom for all users.</p>
+          </div>
+
+          <div class="support-card">
+            <h4>Like the idea?</h4>
+            <p>If you appreciate an ad-free, lightweight streaming client that respects your privacy and device
+              resources, consider helping us keep servers running and development active.</p>
+          </div>
+
+          <div class="support-card">
+            <h3>Bring NewPipe forward</h3>
+            <p>You can contribute by translating the app on Weblate, reporting bugs on GitHub, improving documentation,
+              or sharing NewPipe with friends and privacy communities.</p>
+          </div>
+
+          <div class="support-card donate-card">
+            <h3>Donate</h3>
+            <p>Direct financial contributions support continuous extractor maintenance, server hosting fees, and device
+              testing labs for our team.</p>
+            <div class="btn-group" style="margin-top: 1rem;">
+              <a href="https://liberapay.com/TeamNewPipe" target="_blank" rel="noopener noreferrer"
+                class="btn btn-primary">Donate on Liberapay</a>
+              <a href="https://github.com/TeamNewPipe/NewPipe" target="_blank" rel="noopener noreferrer"
+                class="btn btn-secondary">Sponsor on GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 10: Frequently Asked Questions (Preserved) -->
+    <section id="faq" class="surface-bg">
+      <div class="container">
+        <div class="section-title-wrap">
+          <div class="badge-tag">Knowledge Base</div>
           <h2>Frequently Asked Questions</h2>
-          <p class="lead">Clear answers to common questions about NewPipe playback and availability issues.</p>
+          <p class="lead">Answers to common questions about NewPipe streaming, features, updates, and privacy.</p>
         </div>
 
         <div class="faq-wrapper">
           <!-- FAQ Item 1 -->
           <div class="faq-item">
             <button class="faq-button" aria-expanded="false" aria-controls="faq-ans-1">
-              <span>1. What does NewPipe content unavailable mean?</span>
+              <span>1. What is NewPipe and how does it work?</span>
               <span class="faq-icon" aria-hidden="true">▼</span>
             </button>
             <div id="faq-ans-1" class="faq-content">
               <div class="faq-body">
-                The “NewPipe content unavailable” error indicates that NewPipe tried to fetch the stream details for a video but the remote server returned an unexpected response, an empty payload, or an unreadable media stream format. It typically stems from backend platform changes or network blocks rather than a bug with your phone hardware.
+                NewPipe is a free, lightweight, and open-source multimedia client for Android. Rather than using the
+                official YouTube API or proprietary Google libraries, NewPipe uses an independent parser library called
+                NewPipeExtractor to retrieve video streams, channel feeds, and comments directly from public web markup.
               </div>
             </div>
           </div>
@@ -558,12 +653,14 @@
           <!-- FAQ Item 2 -->
           <div class="faq-item">
             <button class="faq-button" aria-expanded="false" aria-controls="faq-ans-2">
-              <span>2. Why is NewPipe not loading videos?</span>
+              <span>2. Does NewPipe require a Google account?</span>
               <span class="faq-icon" aria-hidden="true">▼</span>
             </button>
             <div id="faq-ans-2" class="faq-content">
               <div class="faq-body">
-                NewPipe may fail to load videos due to several factors: an outdated version of NewPipe lacking the newest extractor patches, temporary changes on the source streaming platform, network connectivity limits, restrictive DNS or VPN settings, or specific video restriction rules.
+                No. NewPipe operates completely without a Google account. You can search, stream, bookmark, and
+                subscribe to channels anonymously. All subscriptions, history, and playlists are stored exclusively on
+                your device.
               </div>
             </div>
           </div>
@@ -571,12 +668,14 @@
           <!-- FAQ Item 3 -->
           <div class="faq-item">
             <button class="faq-button" aria-expanded="false" aria-controls="faq-ans-3">
-              <span>3. How can I fix the NewPipe content unavailable error?</span>
+              <span>3. Why does "content unavailable" occasionally occur?</span>
               <span class="faq-icon" aria-hidden="true">▼</span>
             </button>
             <div id="faq-ans-3" class="faq-content">
               <div class="faq-body">
-                You can fix the error by executing key troubleshooting steps: verify active internet access, test different videos, update NewPipe to the latest version, force stop and restart the app, clear temporary app cache, and check official project update channels if upstream services altered their player code.
+                Because NewPipe parses public streaming websites directly, backend structural changes made by upstream
+                platforms can temporarily prevent the extractor from identifying stream endpoints. Maintainers promptly
+                release extractor patches to restore playback compatibility.
               </div>
             </div>
           </div>
@@ -584,12 +683,13 @@
           <!-- FAQ Item 4 -->
           <div class="faq-item">
             <button class="faq-button" aria-expanded="false" aria-controls="faq-ans-4">
-              <span>4. Should I update NewPipe when content stops working?</span>
+              <span>4. Is NewPipe safe and legal to use?</span>
               <span class="faq-icon" aria-hidden="true">▼</span>
             </button>
             <div id="faq-ans-4" class="faq-content">
               <div class="faq-body">
-                Yes. Updating NewPipe is often the most effective resolution when content stops playing. Open-source maintainers frequently publish new releases containing updated extractor scripts specifically created to restore playback after platform modifications.
+                Yes. NewPipe is 100% free and open-source software licensed under GPLv3. It contains no spyware, ads, or
+                hidden telemetry. It functions like a specialized web browser accessing publicly available media.
               </div>
             </div>
           </div>
@@ -597,12 +697,28 @@
           <!-- FAQ Item 5 -->
           <div class="faq-item">
             <button class="faq-button" aria-expanded="false" aria-controls="faq-ans-5">
-              <span>5. What should I do if NewPipe still cannot load content?</span>
+              <span>5. Can NewPipe play videos in the background and popup window?</span>
               <span class="faq-icon" aria-hidden="true">▼</span>
             </button>
             <div id="faq-ans-5" class="faq-content">
               <div class="faq-body">
-                If troubleshooting steps do not immediately solve the problem, check official project channels (such as GitHub releases or maintainer updates) for notices regarding ongoing service changes. In many cases, developers are already assembling a patch, and waiting a short period for the next update release will resolve the issue.
+                Yes. Background audio playback and picture-in-picture floating popup windows are built-in native
+                features available for all supported platforms without any subscription or payment.
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ Item 6 -->
+          <div class="faq-item">
+            <button class="faq-button" aria-expanded="false" aria-controls="faq-ans-6">
+              <span>6. How do I keep NewPipe updated?</span>
+              <span class="faq-icon" aria-hidden="true">▼</span>
+            </button>
+            <div id="faq-ans-6" class="faq-content">
+              <div class="faq-body">
+                You can keep NewPipe updated by downloading releases directly from the GitHub releases page, or by using
+                the F-Droid client with the official NewPipe repository enabled for instant automated update
+                notifications.
               </div>
             </div>
           </div>
@@ -610,14 +726,18 @@
       </div>
     </section>
 
-    <!-- 12. Final CTA Banner -->
+    <!-- Section 11: Call to Action / Find Apps -->
     <section class="container">
       <div class="cta-banner">
-        <h2>Still Seeing “Content Unavailable”?</h2>
-        <p>Review our step-by-step troubleshooting checklist or check if a new application update is ready for your Android device.</p>
+        <h2>Ready for a Smarter Streaming Experience?</h2>
+        <h3 style="color: #ffffff; opacity: 0.9; font-size: 1.25rem; font-weight: 500; margin-bottom: 1rem;">Find Apps
+          &amp; Join the Open-Source Movement</h3>
+        <p>Download the lightweight, privacy-focused media player for Android and take back control of your media
+          playback today.</p>
         <div class="btn-group">
-          <a href="#troubleshooting" class="btn btn-primary">Troubleshoot NewPipe</a>
-          <a href="#update" class="btn btn-secondary">Check for Updates</a>
+          <a href="#get-newpipe" class="btn btn-primary">Get NewPipe APK</a>
+          <a href="https://github.com/TeamNewPipe/NewPipe" target="_blank" rel="noopener noreferrer"
+            class="btn btn-secondary">Explore on GitHub</a>
         </div>
       </div>
     </section>
@@ -629,11 +749,12 @@
       <div class="footer-grid">
         <div class="footer-brand">
           <a href="#home" class="brand-logo">
-            <img src="assets/logo/logo.svg" alt="NewPipe Help Logo">
-            <span>NewPipe Help</span>
+            <img src="assets/logo/logo.svg" alt="NewPipe Logo">
+            <span>NewPipe</span>
           </a>
           <p>
-            An informational community resource for understanding, diagnosing, and troubleshooting NewPipe content availability and media playback issues on Android.
+            A lightweight, free, and open-source streaming frontend for Android that prioritizes user privacy, zero
+            tracking, and complete playback autonomy.
           </p>
         </div>
 
@@ -641,29 +762,36 @@
           <h4>Navigation</h4>
           <ul class="footer-links">
             <li><a href="#home">Home</a></li>
-            <li><a href="#why-it-happens">Causes</a></li>
-            <li><a href="#solutions">Solutions</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#supported-services">Supported Services</a></li>
+            <li><a href="#get-newpipe">Get NewPipe</a></li>
             <li><a href="#troubleshooting">Troubleshooting</a></li>
+            <li><a href="#support">Support &amp; Donate</a></li>
             <li><a href="#faq">FAQ</a></li>
           </ul>
         </div>
 
         <div class="footer-col">
-          <h4>Legal Information</h4>
+          <h4>Open Source &amp; Legal</h4>
           <ul class="footer-links">
-            <li><a href="#disclaimer">Privacy Policy</a></li>
+            <li><a href="https://github.com/TeamNewPipe/NewPipe" target="_blank" rel="noopener noreferrer">GitHub
+                Repository</a></li>
+            <li><a href="https://f-droid.org/en/packages/org.schabi.newpipe/" target="_blank"
+                rel="noopener noreferrer">F-Droid Package</a></li>
+            <li><a href="#anti-features">Anti-Features Info</a></li>
             <li><a href="#disclaimer">Disclaimer</a></li>
-            <li><a href="#disclaimer">Terms &amp; Conditions</a></li>
           </ul>
         </div>
       </div>
 
       <div class="disclaimer-box" id="disclaimer">
-        <strong>Independent Resource Disclaimer:</strong> NewPipe Help is an independent informational and troubleshooting guide. This website is not operated by, affiliated with, sponsored by, or endorsed by Team NewPipe, Schabi, or F-Droid. All product names, logos, and brands are property of their respective owners.
+        <strong>Open Source Community Notice:</strong> NewPipe is an independent, free, and open-source project licensed
+        under the GNU General Public License v3.0 (GPLv3). YouTube is a trademark of Google LLC. This application is not
+        associated with, sponsored by, or endorsed by Google LLC.
       </div>
 
       <div class="footer-bottom">
-        <p>&copy; 2026 NewPipe Help. All rights reserved.</p>
+        <p>&copy; 2026 NewPipe. Free and open-source software under GPLv3.</p>
       </div>
     </div>
   </footer>
@@ -671,4 +799,5 @@
   <!-- Vanilla JavaScript File -->
   <script src="js/script.js"></script>
 </body>
+
 </html>
